@@ -74,3 +74,10 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+.vagrant
+jenkins-data/*
+# exception to the rule
+!jenkins-data/.gitkeep 
+home/*
+!home/.gitkeep 
